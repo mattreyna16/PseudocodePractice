@@ -1,0 +1,22 @@
+Create boolean isRunning and set it to true.
+Create int's randNumber, numGuesses, and playerGuess.
+
+While isRunning is equal to true
+  Generate a random number and assign it to randNumber.
+  Display a greeting message and prompt the user to input their first guess.
+  Assign user input to playerGuess.
+  Increment numGuesses by one.
+  If numGuesses is greater than 7 
+    Then display a you lose message.
+    Ask if user wants to play again (yes or no)
+    If yes
+      Then set numGuesses to 0
+    If no
+      Then display thanks for playing message and set isRunning to false to end the game loop
+  If playerGuess is equal to randNumber
+    Then display a you win message with the number of attempts stored in numGuesses.
+    Ask if user wants to play again and get input (yes or no)
+    If yes
+      Then set numGuesses to 0
+    If no
+      Then display thanks for playing message and set isRunning to false to end the game loop
